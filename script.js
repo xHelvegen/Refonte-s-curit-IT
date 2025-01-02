@@ -21,7 +21,7 @@ async function getVisitorInfo() {
 
     // Show message
     const message = document.getElementById('message');
-    message.textContent = "This information is accessible to any website you visit. Stay safe online!";
+    message.textContent = "This information is accessible to any website you visit. Stay safe out there!";
   } catch (error) {
     console.error('Error fetching visitor information:', error);
   }
